@@ -10,7 +10,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 WORKDIR /app
 
 # Clone repository
-RUN git clone https://github.com/zennn08/brat-api .
+RUN git clone https://github.com/Riski0929/brat-api .
 
 # Install dependencies
 RUN npm install
