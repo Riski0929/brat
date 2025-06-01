@@ -36,10 +36,10 @@ RUN mkdir -p /usr/share/fonts/AppleColorEmoji && \
 RUN fc-list | grep -i "AppleColorEmoji"
 
 # Set environment variable for the app port
-ENV PORT=7860
+ENV PORT=8080
 
 # Expose the port
-EXPOSE 7860
+EXPOSE 8080
 
 # Start the application
 CMD ["node", "app.js"]
